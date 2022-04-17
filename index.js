@@ -10,27 +10,65 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'Please enter your Github Username:'
+        message: 'Please enter your Github Username: (Required)',
+        validate: nameInput => {
+            if(nameInput) {
+                return true;
+            } else {
+                console.log('Please enter your Github username!');
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'email',
-        message: 'What is your email address?',
+        message: 'What is your email address? (Required)',
+        validate: nameInput => {
+            if(nameInput) {
+                return true;
+            } else {
+                console.log('Please enter your email address!');
+            }
+        }
     },
     {
         type: 'input',
         name: 'title',
-        message: 'What is the name of your project?'
+        message: 'What is the name of your project? (Required)',
+        validate: nameInput => {
+            if(nameInput) {
+                return true;
+            } else { 
+                console.log('Please the name of your project!');
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'description',
-        message: 'Please provide a description of your project and what it is meant to do:'
+        message: 'Please provide a description of your project and what it is meant to do: (Required)',
+        validate: nameInput => {
+            if(nameInput) {
+                return true;
+            } else {
+                console.log('Please enter a description of your project!');
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'screenshot',
-        message: 'Please type the relative path of your screenshot'
+        message: 'Please type the relative path of your screenshot: (Required)',
+        validate: nameInput => {
+            if(nameInput) {
+                return true;
+            } else {
+                console.log('Please enter the relative path to your screenshot!')
+            }
+        }
     },
     {
         type: 'input',
@@ -56,6 +94,18 @@ const questions = [
     },
     {
         // Languages used
+        type: 'checkbox',
+        name: 'languages',
+        messages: 'What languages did you make this project with? (Required: Check all that apply)',
+        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node', 'React', 'SQL', 'MongoDB', 'Express'],
+        validate: nameCheckbox => {
+            if(nameCheckbox) {
+                return true;
+            } else {
+                console.log('Please choose at least one language!');
+                return false;
+            }
+        }
     },
     { 
         // Licenses 
@@ -75,7 +125,7 @@ function init() {
     
        //
        //
-       
+
         })
     
     };
