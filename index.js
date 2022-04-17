@@ -19,6 +19,7 @@ const questions = [
                 return false;
             }
         }
+   
     },
     {
         type: 'input',
@@ -31,6 +32,7 @@ const questions = [
                 console.log('Please enter your email address!');
             }
         }
+      
     },
     {
         type: 'input',
@@ -44,11 +46,12 @@ const questions = [
                 return false;
             }
         }
+      
     },
     {
         type: 'input',
         name: 'description',
-        message: 'Please provide a description of your project and what it is meant to do: (Required)',
+        message: 'Please provide a description of your project and its purpose: (Required)',
         validate: nameInput => {
             if(nameInput) {
                 return true;
@@ -57,6 +60,7 @@ const questions = [
                 return false;
             }
         }
+       
     },
     {
         type: 'input',
@@ -69,6 +73,7 @@ const questions = [
                 console.log('Please enter the relative path to your screenshot!')
             }
         }
+       
     },
     {
         type: 'input',
@@ -90,7 +95,7 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        message: 'What does the user need to know before contributing to the repository?',
+        message: 'What does the user need to know before contributing to the repository?'
     },
     {
         // Languages used
@@ -106,15 +111,33 @@ const questions = [
                 return false;
             }
         }
+       
     },
     { 
         // Licenses 
+        type: 'checkbox',
+        name: 'license',
+        message: 'Any licenses used by your project? (Required)',
+        choices: ['GPL v3', 'BSD3','MIT', 'APACHE 2.0', 'Mozilla Public License', 'None'],
+        validate: nameCheckbox => {
+            if(nameCheckbox) {
+                return true;
+            } else {
+                console.log('Please choose at least one option!');
+                return false;
+            }
+        }
     }
 
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+        if(err) throw err;
+        console.log('The file has been updated!');
+    });
+}
 
 // TODO: Create a function to initialize app
 function init() {
@@ -122,9 +145,9 @@ function init() {
         inquirer.prompt(questions)
         .then((data) => {
             console.log(data)
-    
-       //
-       //
+            
+            writeToFile('README.md',
+            generateMarkdown({...data}))
 
         })
     
