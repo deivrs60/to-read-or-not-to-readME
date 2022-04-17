@@ -102,31 +102,14 @@ const questions = [
         type: 'checkbox',
         name: 'languages',
         messages: 'What languages did you make this project with? (Required: Check all that apply)',
-        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node', 'React', 'SQL', 'MongoDB', 'Express', 'Markdown'],
-        validate: nameCheckbox => {
-            if(nameCheckbox) {
-                return true;
-            } else {
-                console.log('Please choose at least one language!');
-                return false;
-            }
-        }
+        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node', 'React', 'SQL', 'MongoDB', 'Express', 'Markdown']
        
     },
     { 
-        // Licenses 
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'Any licenses used by your project? (Required)',
-        choices: ['GPL v3', 'BSD3','MIT', 'APACHE 2.0', 'Mozilla Public License', 'None'],
-        validate: nameCheckbox => {
-            if(nameCheckbox) {
-                return true;
-            } else {
-                console.log('Please choose at least one option!');
-                return false;
-            }
-        }
+        choices: ['GPL v3', 'BSD3','MIT', 'APACHE 2.0', 'Mozilla Public License', 'None']
     }
 
 ];

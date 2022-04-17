@@ -1,5 +1,5 @@
-# To Read or Not to READ...ME
-  None
+# de
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
   ## Table of Contents ##
   *[Description](#description)
@@ -16,29 +16,29 @@
 
 
   ## Description ##
-  A dynamic README generator right from your command line!
-  ![screenshot](.)
+  dedededededede
+  ![screenshot](dede)
 
   ## License ##
-  BSD3,APACHE 2.0
-  This is licensed under BSD3,APACHE 2.0
+  APACHE 2.0
+  This is licensed under APACHE 2.0
   
 
   ## Installation ##
-  npm i
+  dededed
 
   ## Tests ##
   npm test
 
   ## Usage ##
-  no
+  
 
   ## Contributing ##
-  no
+  
 
   ## Questions ##
-  Github: [Deivrs60](https://github.com/Deivrs60)
-  Email: david.reyes095@gmail.com
+  Github: [de](https://github.com/de)
+  Email: de
 
 
   
