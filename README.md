@@ -23,6 +23,9 @@
   ## Description ##
   A dynamic README Generator right from your command line!
   ![screenshot](./assets/images/screenshot.png)
+  
+  LINK TO VIDEO WALKTHROUGH: 
+  https://drive.google.com/file/d/1Q0QAOEmxkLzbjcCzOMqcT3REVDJRmNa4/view
 
   ## License ##
   This is licensed under BSD3
