@@ -1,10 +1,9 @@
-# d
-  ###### 
-  ENTER BADGE RENDERING HERE
-  #####
+# To Read or Not to READ...ME
+  None
   
   ## Table of Contents ##
   *[Description](#description)
+  *[License](#license)
 
 
   *[Languages](#languages)
@@ -17,29 +16,29 @@
 
 
   ## Description ##
-  d
-  ![screenshot](d)
+  A dynamic README generator right from your command line!
+  ![screenshot](.)
 
   ## License ##
-  GPL v3
-
+  BSD3,APACHE 2.0
+  This is licensed under BSD3,APACHE 2.0
   
 
   ## Installation ##
-  d
+  npm i
 
   ## Tests ##
-  d
+  npm test
 
   ## Usage ##
-  d
+  no
 
   ## Contributing ##
-  d
+  no
 
   ## Questions ##
-  Github: [d](https://github.com/d)
-  Email: d
+  Github: [Deivrs60](https://github.com/Deivrs60)
+  Email: david.reyes095@gmail.com
 
 
   
