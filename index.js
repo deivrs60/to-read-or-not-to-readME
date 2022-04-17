@@ -97,7 +97,7 @@ const questions = [
         type: 'checkbox',
         name: 'languages',
         messages: 'What languages did you make this project with? (Required: Check all that apply)',
-        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node', 'React', 'SQL', 'MongoDB', 'Express'],
+        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node', 'React', 'SQL', 'MongoDB', 'Express', 'Markdown'],
         validate: nameCheckbox => {
             if(nameCheckbox) {
                 return true;
