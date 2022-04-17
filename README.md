@@ -1,5 +1,5 @@
 # To READ or not to READ...ME
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  None
   
   ## Table of Contents ##
   *[Description](#description)
@@ -19,13 +19,13 @@
 
 
 
+
   ## Description ##
-  A command line application that generates dynamic README files!
-  ![screenshot](n/a)
+  A dynamic README Generator right from your command line!
+  ![screenshot](./assets/images/screenshot.png)
 
   ## License ##
-  Mozilla Public License
-  This is licensed under Mozilla Public License
+  This is licensed under BSD3
   
 
   ## Installation ##
@@ -35,14 +35,14 @@
   npm test
 
   ## Usage ##
-  Nope!
+  There's code in here..
 
   ## Contributing ##
-  Nothing!
+  Go for it!
 
   ## Questions ##
-  Github: [Deivrs60s](https://github.com/Deivrs60s)
-  
+  Github: [deivr60s](https://github.com/deivr60s)
+
   Email: david.reyes095@gmail.com
 
 

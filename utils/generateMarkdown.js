@@ -42,15 +42,20 @@ function generateMarkdown(data) {
   
   ## Table of Contents ##
   *[Description](#description)
+
   ${renderLicenseLink(data.license)}
 
 
   *[Languages](#languages)
 
   *[Installation](#installation)
+
   *[Usage](#usage)
+
   *[Contributing](#contributing)
+
   *[Questions](#questions)
+
 
 
 
@@ -59,7 +64,6 @@ function generateMarkdown(data) {
   ![screenshot](${data.screenshot})
 
   ## License ##
-  ${data.license}
   ${renderLicenseSection(data.license)}
   
 
@@ -77,6 +81,7 @@ function generateMarkdown(data) {
 
   ## Questions ##
   Github: [${data.github}](https://github.com/${data.github})
+
   Email: ${data.email}
 
 
