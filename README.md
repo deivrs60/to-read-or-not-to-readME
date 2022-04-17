@@ -1,44 +1,48 @@
-# de
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# To READ or not to READ...ME
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
   
   ## Table of Contents ##
   *[Description](#description)
+
   *[License](#license)
 
 
   *[Languages](#languages)
 
   *[Installation](#installation)
+
   *[Usage](#usage)
+
   *[Contributing](#contributing)
+  
   *[Questions](#questions)
 
 
 
   ## Description ##
-  dedededededede
-  ![screenshot](dede)
+  A command line application that generates dynamic README files!
+  ![screenshot](n/a)
 
   ## License ##
-  APACHE 2.0
-  This is licensed under APACHE 2.0
+  Mozilla Public License
+  This is licensed under Mozilla Public License
   
 
   ## Installation ##
-  dededed
+  npm i
 
   ## Tests ##
   npm test
 
   ## Usage ##
-  
+  Nope!
 
   ## Contributing ##
-  
+  Nothing!
 
   ## Questions ##
-  Github: [de](https://github.com/de)
-  Email: de
+  Github: [Deivrs60s](https://github.com/Deivrs60s)
+  Email: david.reyes095@gmail.com
 
 
   
